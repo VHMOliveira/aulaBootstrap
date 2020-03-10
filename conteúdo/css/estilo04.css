@@ -1,0 +1,10 @@
+body{
+    margin-bottom: 200px;
+    padding: 16px;
+    background: gray;
+}
+
+.contraste{
+    background-color: black;
+    width: 350px;
+}
