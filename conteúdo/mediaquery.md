@@ -15,7 +15,7 @@ Tipos de mídias:<br/>
 
 Exemplo de utilização:<br/>
 
-<link rel="stylesheet" media="print" href="print.css" /> 
+< link rel="stylesheet" media="print" href="print.css" />
 
 <br/>Tipos de mídias:<br/>
 
