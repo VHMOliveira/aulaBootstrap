@@ -17,14 +17,19 @@
 
     
     <h2>Alertas</h2>
-    <div>
+    <div class=" alert alert-primary"
       <strong>Primary</strong> você tem uma postagem pendente!
+    </div>
+    <br>
+    <h2>Alertas</h2>
+    <div class=" alert alert-secondary"
+      <strong>Secondary</strong> você tem uma postagem pendente!
     </div>
 
 
     <h2>Alerta com botão fechar</h2>
-    <div>
-      <button type="button">
+    <div class="alert alert-danger alert-dismissible">
+      <button class="close" type="button" data-dismiss="alert">
         &times;
       </button>
       <strong>Fechar</strong> Alerta com botão fechar
@@ -33,7 +38,7 @@
     
 
     <h2>Alerta com mais conteúdos</h2>
-    <div>
+    <div class=" alert alert-dark">
       
       <h4>Título</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus in purus malesuada vulputate. Sed lacinia quam massa, eu consectetur tortor faucibus sed.</p>
@@ -45,22 +50,52 @@
 
 
     <h2>Barra de progresso</h2>
-    <div>
-      <div></div>
+    <div class=" progress">
+      <div class=" progress-bar w-100 bg-primary">100%</div>
+    </div>
+    <br>
+    <div class=" progress">
+      <div class=" progress-bar w-75 bg-secondary">75%</div>
+    </div>
+    <br>
+    <div class=" progress">
+      <div class=" progress-bar bg-success progress-bar-striped" style="width: 50%;">50%</div>
+    </div>
+    <br>
+    <div class=" progress">
+      <div class=" progress-bar bg-warning" style="width: 35%;">35%</div>
+    </div>
+    <br>
+    <div class=" progress">
+      <div class=" progress-bar w-25 bg-danger">25%</div>
     </div>
     <br>
 
     <h2>Altura</h2>
-    
+    <div class=" progress" style="height: 40px;">
+      <div class=" progress-bar w-50 bg-success ">50%</div>
+    </div>
+    <br>
 
     <h2>Listrado</h2>
-    
+    <div class=" progress">
+      <div class=" progress-bar bg-success progress-bar-striped" style="width: 50%;">50%</div>
+    </div>
+    <br>
 
     <h2>Animado</h2>
-    
+    <div class=" progress">
+      <div class=" progress-bar w-50 bg-success progress-bar-striped progress-bar-animated">50%</div>
+    </div>
+    <br>
 
     <h2>Múltiplas barras</h2>
-    
+    <div class=" progress">
+      <div class=" progress-bar w-75 bg-success progress-bar-striped progress-bar-animated">Jogos 75%</div>
+      <div class=" progress-bar w-50 bg-warning progress-bar-striped progress-bar-animated">Saves 50%</div>
+      <div class=" progress-bar w-25 bg-danger progress-bar-striped progress-bar-animated">Imagens 25%</div>
+    </div>
+    <br>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
